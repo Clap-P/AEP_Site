@@ -1,11 +1,14 @@
 @font-face {
 	font-family: 'Fascinate';
-	src: url(‘’) format(‘woff2’),
-		url(‘/fonts/Robot-Regular.ttf’) format(‘truetype’)
+	src:    url(‘Fonts/Fascinate-Regular.ttf’) format(‘truetype’)
+}
+@font-face {
+	font-family: 'Quicksand';
+	src:    url(‘Fonts/Quicksand-VariableFont_wght.ttf’) format(‘truetype’)
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Quicksand;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -17,7 +20,7 @@ header {
     text-align: center;
     padding: 1em;
     position: relative;
-    font-family: ;
+    font-family: Fascinate;
 }
 
 header img {
