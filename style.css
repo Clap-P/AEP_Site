@@ -32,6 +32,12 @@ header img {
 
 }
 
+#lecteur {
+    padding: 1em;
+    background-color: #eee;
+    margin-top: 20px;
+}
+
 
 nav {
     background-color: #D8A86F;
