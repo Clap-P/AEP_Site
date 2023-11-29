@@ -8,6 +8,7 @@
 	src:    url(‘Fonts/Quicksand-VariableFont_wght.ttf’) format(‘truetype’)
 }
 
+
 body {
     font-family: Quicksand;
     margin: 0;
@@ -22,6 +23,11 @@ header {
     padding: 1em;
     position: relative;
     font-family: Fascinate;
+}
+
+header.subtitle {
+    font-style: italic;
+    font-size: medium;
 }
 
 header img {
