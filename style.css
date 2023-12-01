@@ -15,6 +15,35 @@
 
 } */
 
+.electroStyle {
+    background: url('images/imageElectro.jpg') center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.popStyle {
+    background: url('images/ImagePop.jpg') center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.rapStyle {
+    background: url('images/ImageRap.jpg') center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.rockStyle {
+    background: url('images/ImageRock.jpg') center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.jazzStyle {
+    background: url('images/imageJazz.jpg') center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+}
 
 .fond-texte {
     background-color: rgba(169, 169, 169, 0.5);
@@ -54,7 +83,7 @@ header img {
 
 #lecteur {
     padding: 1em;
-    background-color: #eee;
+    background-color: rgba(169, 169, 169, 0.5);
     margin-top: 20px;
 }
 
