@@ -8,12 +8,12 @@
 	src:    url(‘Fonts/Quicksand-VariableFont_wght.ttf’) format(‘truetype’)
 }
 
-/* #index {
+ #index {
     background-image: url('FondAccueil.png');
     background-size: cover;
     background-position: center;
 
-} */
+} 
 
 .electroStyle {
     background: url('images/imageElectro.jpg') center/cover no-repeat;
@@ -112,4 +112,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+h2 {
+    font-weight: bold;
 }
