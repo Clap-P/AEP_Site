@@ -20,6 +20,8 @@
             <subtitle><I>"Listen Your Way"</I></subtitle>
     </header>
 
+    <p class="texte-survol">Passez la souris sur le texte </p>
+
     <nav>
 
         <a href="#accueil">Accueil</a>
