@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <video id="video-background" autoplay muted loop >
+    <video controls width="100%" height="auto"
+     id="video-background" autoplay muted loop >
         <source src="images/Woodstock.mp4" type="video/mp4">Votre navigateur ne supporte pas la lecture de vidéos HTML5.
       </video>
     <header>
