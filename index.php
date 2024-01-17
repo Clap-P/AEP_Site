@@ -18,6 +18,33 @@
             <h1>Honseur</h1>
             <subtitle><I>"Listen Your Way"</I></subtitle>
     </header>
+    <div class="container">
+	<?php
+				$connexion=mysqli_connect("localhost", "root", "", "aep_dynamic"); 
+				$OrdreSQL = "SELECT Id_Genre, Libelle_Genre, Id_Musique FROM aep_genre WHERE idMusique = " . $lignetab["IdMusique"]; 
+				$tabgenre = $connexion->query($OrdreSQL);
+				$lignetabgenre = $tabgenre->fetch_assoc();
+				$connexion->set_charset("utf8"); 
+				?>
+	
+	
+		<ul>
+		
+			<?php
+		While ($lignetabgenre)
+		{
+			echo '<li><a href= "ADEDetailEtudiant.php""' . $lignetabgenre["Id_Genre"] . '.html">' .$lignetabgenre["Libelle_Genre"] . "</a></li>";
+			$lignetabgenre = $tabgenre->fetch_assoc();
+		}
+		?>
+			
+		</ul>
+		
+	
+	
+	
+
+
 
     <nav>
 
@@ -46,5 +73,6 @@
         <p>&copy; 2023 Exploration Musicale - Tous droits réservés.</p>
     </footer>
 </body>
+<?php $connexion->close(); ?>
 
 </html>
