@@ -18,12 +18,12 @@
     </header>
     
     <nav>
-        <a href="../../index.html">Accueil</a>
-        <a href="../rap/rap.html">Rap</a>
-        <a href="../rock/rock.html">Rock</a>
-        <a href="../electro/electro.html">Electro</a>
-        <a href="../pop/pop.html">Pop</a>
-        <a href="../jazz/jazz.html">Jazz</a>
+        <a href="../../index.php">Accueil</a>
+        <a href="../rap/rap.php">Rap</a>
+        <a href="../rock/rock.php">Rock</a>
+        <a href="../electro/electro.php">Electro</a>
+        <a href="../pop/pop.php">Pop</a>
+        <a href="../jazz/jazz.php">Jazz</a>
     </nav>
     
     <div class="rapStyle">
