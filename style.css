@@ -138,3 +138,12 @@ footer {
 h2 {
     font-weight: bold;
 }
+
+.texte-survol {
+    transition: background-color 0.3s ease; 
+    }
+    
+.texte-survol:hover {
+    background-color: #666464; 
+    }
+    
